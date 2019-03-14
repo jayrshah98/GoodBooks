@@ -1,0 +1,285 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+/*body
+{
+    font-family: monospace;
+}*/
+/*.row
+{
+    max-width: 1200px;
+    margin: auto;
+}*/
+
+/*.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+     transition: top 0.3s;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li.menu a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position:absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-content: center;
+    text-transform: uppercase;
+
+    
+}
+*/
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+/*header
+{
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: left top ;
+}*/
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+    align-self: center;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+
+/*.logo img
+{
+    width: 300px;
+    height: auto;
+    
+
+}
+
+.name {
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Times New Roman",Times, serif;
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+    float: right;
+
+}
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+*/
+
+/*header {
+      width: 100%;
+      height: 100vh;
+      background: url(hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+*/
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+      /*font-size: 50px;
+*/    /*font-style: bold*/;
+    font-family: "Times New Roman",Times, serif;
+ /*   color: white;*/
+   /* margin-top: 50px;*/
+    padding: 10px;
+  /*  float: left;*/
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+
+.Find{
+     position:absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-content: left;
+    text-transform: uppercase;
+}
+h5
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 275px;
+    
+}

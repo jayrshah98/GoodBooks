@@ -1,0 +1,108 @@
+.login-page{
+	width:360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.form
+{
+	position: relative;
+	z-index: 1;
+	background: rgba(7,40,195,0.8);
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	 border-radius: 10px;
+}
+
+.form input
+{
+	  font-family: Poppins-Medium;
+	  outline: 1;
+  font-size: 15px;
+  line-height: 1.5;
+  
+	 border-radius: 20px;
+  
+  margin: 0 0 15px;
+  width: 100%;
+  background: #f2f2f2;
+  height: 50px;
+  border: 0;
+
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.form button{
+	  font-family: Montserrat-Bold;
+	  text-transform: uppercase;
+	  outline: 0;
+	  background: #57b846;
+	  width:100%;
+	  border: 0;
+	  padding:15px;
+	  color: #ffffff;
+	   border-radius: 25px;
+	  font-size: 15px;
+	  cursor: pointer;
+}
+
+.form button:hover{
+	background: #333333;
+}
+
+.form .message{
+margin: 15px 0 0;
+color: aliceblue;
+font-size: 12px;
+
+}
+
+.form .message a{
+	color: #4caf50;
+	text-decoration:none ;
+}
+
+/*.form .register-form{
+	display: none;
+}*/
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: absolute;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: absolute;
+    left: -35px;
+    
+    content: "✖";
+}
+
