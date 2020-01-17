@@ -1,5 +1,6 @@
 # GoodBooks
 Portal for buying and selling of second hand books
+
 Description
 
 The website can be helpful for students who don't have easy access of cheaper books.
@@ -16,3 +17,4 @@ Xampp is used for database and executing the code
 Using phpmyadmin import the SQL files from the folder into phpmyadmin
 All the SQL files must be under a single name of goodbooks
 Download the zip file adn unzip and tore it in xampp>htdocs and execute home.php
+Login using your own creditenials and product filter page will open.
