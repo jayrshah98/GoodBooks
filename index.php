@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -21,21 +21,22 @@
 
 $conn = new mysqli('localhost', 'root', '') or die (mysqli_error()); // DB Connection
 $db = mysqli_select_db($conn, 'goodbooks') or die("DB Error");
-    $h=$_GET['r'];
+    #$h=$_GET['r'];
+    $h = ($_GET['r']) ? $_GET['r'] : 1;
 
-
+#$s=[]''
 $sqlc="SELECT * FROM book WHERE Book_id='$h'";
 $resultc=mysqli_query($conn,$sqlc);
 $row=mysqli_fetch_array($resultc);
 $str=$row['book_img'];
-list($s,$image)=explode("/",$str);
+list($s,$image)=array_pad(explode("/",$str),2,null);
 $a=$row['U_id'];
 
   $sqlb="SELECT * FROM user WHERE U_id='$a'";
   $resultb = mysqli_query($conn,$sqlb);
- $row1 = mysqli_fetch_array($resultb);      
+ $row1 = mysqli_fetch_array($resultb);
     ?>
-   
+
 
     <main class="container">
          <div class="left-column">
@@ -45,12 +46,12 @@ $a=$row['U_id'];
 
       <!-- Right Column -->
       <div class="right-column">
-      
+
         <!-- Product Description -->
         <div class="product-description">
                    <h1><?php echo $row['Name'];?></h1>
           <p>Author: <?php echo $row['Author'];?></p>
-          
+
            <p>Edition: <?php echo $row['Edition'];?></p>
             <p>Semester: <?php echo $row['Semester'];?></p>
         </div>
@@ -58,19 +59,19 @@ $a=$row['U_id'];
         <!-- Product Configuration -->
         <div class="product-configuration">
 
-          
+
           <div class="product-color">
             <span>Seller Details</span>
 
             <div class="color-choose">
                <h1>Name: <?php echo $row1['Name'];?></h1>
                <p>Contact: <?php echo $row1['Contact'];?></p>
-              
+
             </div>
 
           </div>
 
-         
+
         <div class="product-price">
           <span>₹<?php echo $row['Cost'];?></span>
           <a href="#" class="cart-btn">Buy</a>
